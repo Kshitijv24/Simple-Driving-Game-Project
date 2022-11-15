@@ -27,7 +27,7 @@ public class Car : MonoBehaviour
     {
         if (other.CompareTag("Obstacle"))
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(0);
         }
     }
 }
